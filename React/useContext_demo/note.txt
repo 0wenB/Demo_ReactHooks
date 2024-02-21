@@ -1,0 +1,12 @@
+useEffect: set a side effect when something else happen.
+
+useEffect(setup, dependencies?)
+
+setup is the function (logic/effect that we want)
+dependencies are the thing which will trigger the setup function
+
+4 cases of useEffect:
+1) No dependency passed
+2) An empty array as dependency
+3) Props/state values as dependency
+4) Effect Cleanup
